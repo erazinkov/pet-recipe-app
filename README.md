@@ -5,7 +5,9 @@
 ## Используемые технологии:
   * Чистый JavaScript (без использования фреймворков).
   * Webpack для сборки приложения.
-  * API от https://dummyjson.com/docs/recipes для получения данных о рецептах (рекомендуется использовать vpn).
+  * API от https://dummyjson.com/docs/recipes для получения данных о рецептах. 
+  > [!NOTE]
+  > Для надежной работы данного API рекомендуется использовать **virtual private network.**
 
 ## Особенности:
   ### Single Page Application (SPA)
