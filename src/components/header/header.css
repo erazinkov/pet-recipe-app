@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu__item:visited {
+    color: var(--black);
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: var(--fs-1);
+    line-height: 1.25;
+    color: var(--black);
+    text-decoration: none;
+    padding: 0.05rem;
+}
+
+.menu__counter {
+    text-decoration: underline;
+}

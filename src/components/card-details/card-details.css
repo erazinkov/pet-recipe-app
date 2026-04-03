@@ -1,0 +1,61 @@
+.card-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-details__image {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-details__image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-details__info {
+    display: flex;
+    color: var(--black);
+    gap: 0.5rem;
+}
+
+.card-details__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.card-details__row {
+   display: flex;
+   font-size: var(--fs-1);
+   line-height: 1.25;
+}
+
+.card-details__row span {
+   font-weight: 700;
+}
+
+.card-details__instruction {
+    font-size: var(--fs-1);
+    margin-top: 1.25rem;
+}
+
+.card-details__footer {
+    margin-top: auto;
+    display: flex;
+}
+
+.button__add {
+    display: flex;
+    background: var(--white);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.button__add:hover {
+    cursor: pointer;
+}
+

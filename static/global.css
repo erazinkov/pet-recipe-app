@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-gray: lightGray;
+
+    --fs-1: .75rem;
+    --fs-2: 1rem;
+    --fs-3: 1.25rem;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--black);
+}
+
+#root {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 75em){
+  :root{
+    --fs-1: 1.125rem;
+    --fs-2: 1.5rem;
+    --fs-3: 2rem;
+  }
+}

@@ -1,0 +1,7 @@
+.recipe__loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-2);
+    padding: 0.5rem;
+}

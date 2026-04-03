@@ -1,0 +1,32 @@
+{
+  "name": "pet-recipe-app",
+  "version": "1.0.0",
+  "description": "Pet Recipe App",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch",
+    "build": "NODE_ENV='production' webpack",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erazinkov/pet-recipe-app.git"
+  },
+  "author": "Egor Razinkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erazinkov/pet-recipe-app/issues"
+  },
+  "homepage": "https://github.com/erazinkov/pet-recipe-app#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  },
+  "dependencies": {
+    "on-change": "^6.0.2"
+  }
+}
